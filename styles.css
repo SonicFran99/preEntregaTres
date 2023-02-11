@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/backdrop.png);
+  object-fit: cover;
+}
+
+/* HEADER */
+header {
+  font-family: "Raleway", sans-serif;
+  background-color: #87189d;
+}
+header #oneClick {
+  width: calc(150px + 1.5vw);
+  height: auto;
+  transition: 0.5s;
+}
+header #oneClick:hover {
+  transform: scale(120%);
+  transition: 0.5s;
+}
+header h1 {
+  font-weight: 400;
+  color: #ffde59;
+  text-shadow: white 2px 2px 5px;
+  transition: 0.5s;
+}
+header h1:hover {
+  transform: scale(120%);
+  transition: 0.5s;
+}
+header form input.form-control {
+  background-color: white;
+  color: black;
+}
+header button.btn {
+  color: #ffde59;
+  border: 1px solid #ffde59;
+}
+header button.btn:hover {
+  background-color: #ffde59;
+  color: #87189d;
+}
+header div.offcanvas {
+  background-color: #323437;
+  color: #ffde59;
+}
+
+/* MAIN */
+main {
+  /*CHECKOUT*/
+  /*CURSOS*/
+}
+main #total {
+  height: 40px;
+  border: 1px rgb(212, 209, 209) solid;
+  border-radius: 10px;
+}
+main h1.display-5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  color: #87189d;
+  text-shadow: #ffde59 2px 2px 5px;
+  transition: 0.5s;
+}
+main h1.display-5:hover {
+  transform: scale(90%);
+  transition: 0.5s;
+}
+main div.container.d-flex.flex-row {
+  height: auto;
+  background-color: #ffde59;
+  border-radius: 15px;
+  box-shadow: #323437 2px 2px 10px;
+}
+main div.card {
+  background-color: transparent;
+  border: gray 1.3px solid;
+  color: #87189d;
+}
+main div.card div.card-body p.card-text {
+  color: gray;
+}
+main div.card div.card-body h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+main div.card button.btn-outline-primary {
+  color: #87189d;
+  border: #87189d 1.5px solid;
+}
+main div.card button.btn-outline-primary:hover {
+  background-color: #87189d;
+  color: #ffde59;
+}
+main a.btn {
+  color: #87189d;
+  border: #87189d 1.5px solid;
+}
+main a.btn:hover {
+  background-color: #87189d;
+  color: #ffde59;
+}
+
+/*FORMULARIO*/
+div.row#formDiv {
+  margin: 0;
+  padding-top: 25px;
+  background-color: #87189d;
+}
+div.row#formDiv img#formImg {
+  width: 100%;
+  transition: 0.5s;
+}
+div.row#formDiv img#formImg:hover {
+  transform: scale(110%);
+  transition: 0.5s;
+}
+div.row#formDiv div.col-8 {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+div.row#formDiv div.col-8 div#info {
+  font-family: "Raleway", sans-serif;
+  text-align: start;
+  width: 82%;
+  color: #ffde59;
+}
+div.row#formDiv div.col-8 div#info h1 {
+  font-weight: 400;
+}
+div.row#formDiv div.col-8 form#form {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+div.row#formDiv div.col-8 form#form input.form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #87189d;
+  color: #ffde59;
+  margin: 15px;
+}
+div.row#formDiv div.col-8 form#form input.form-control::placeholder {
+  color: #ffde59;
+}
+div.row#formDiv div.col-8 form#form textarea.form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #87189d;
+  color: #ffde59;
+  margin: 15px;
+}
+div.row#formDiv div.col-8 form#form textarea.form-control::placeholder {
+  color: #ffde59;
+}
+div.row#formDiv div.col-8 form#form label[for=floatingTextarea] {
+  margin-left: 10px;
+}
+div.row#formDiv div.col-8 form#form button.btn-lg {
+  margin-left: 15px;
+  width: 15%;
+  align-self: flex-start;
+  border: 1px solid #ffde59;
+  color: #ffde59;
+}
+div.row#formDiv div.col-8 form#form button.btn-lg:hover {
+  background-color: #ffde59;
+  color: #87189d;
+  border: 1px solid #87189d;
+}
+div.row#formDiv div.col-4 div#background {
+  background-color: #87189d;
+  box-shadow: none;
+}
+div.row#formDiv div.col-4 div#background i.bi-phone {
+  font-size: 50px;
+  font-weight: 800;
+  color: #87189d;
+  background-color: #ffde59;
+  border-radius: 50%;
+  padding: 5px 15px;
+  transition: 0.5s;
+}
+div.row#formDiv div.col-4 div#background i.bi-phone:hover {
+  transform: scale(110%);
+  transition: 0.5s;
+}
+div.row#formDiv div.col-4 div#separator {
+  height: 100px;
+}
+div.row#formDiv div.col-4 h1 {
+  color: #ffde59;
+  text-shadow: #323437 2px 2px 5px;
+  font-size: 35px;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+/* FOOTER */
+footer.d-flex {
+  background-color: #323437;
+  color: #ffde59;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+footer.d-flex div #oneClickLogo {
+  width: calc(25px + 5%);
+}
+footer.d-flex div span {
+  font-weight: bold;
+}
+footer.d-flex ul li {
+  transition: 0.5s;
+}
+footer.d-flex ul li a i.bi {
+  color: #ffde59;
+}
+footer.d-flex ul li:hover {
+  transform: scale(130%);
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=styles.css.map */
