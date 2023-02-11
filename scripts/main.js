@@ -1,15 +1,3 @@
-//INICIALIZACIÓN CARRITO:
-let productosEnCarrito
-if(localStorage.getItem("carrito")) {
-  productosEnCarrito = JSON.parse(localStorage.getItem("carrito"))
-  initCartHTML(productosEnCarrito)
-}else{
-  productosEnCarrito = []
-  localStorage.setItem("carrito", productosEnCarrito)
-}
-
-console.log(productosEnCarrito)
-
 //INICIALIZACIÓN MAIN:
 searchHeader.innerText = ""
 
