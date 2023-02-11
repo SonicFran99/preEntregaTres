@@ -92,17 +92,3 @@ let alumnos = []
 if(localStorage.getItem("alumnos")){
   alumnos = JSON.parse(localStorage.getItem("alumnos"))
 }
-
-//INICIALIZACIÓN CARRITO:
-let productosEnCarrito
-
-//SETEAR CARRITO AL STORAGE
-if(localStorage.getItem("carrito")) {
-  productosEnCarrito = JSON.parse(localStorage.getItem("carrito"))
-  initCartHTML(productosEnCarrito)
-}else{
-  productosEnCarrito = []
-  localStorage.setItem("carrito", productosEnCarrito)
-}
-
-console.log(productosEnCarrito)
