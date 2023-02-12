@@ -12,7 +12,7 @@ function printInd (array) {
           <p class="card-text">${curso.id}</p>
           <h2 class="card-title">${curso.duration}</h2>
           <h1 class="card-text display-1">€${curso.price}</h1>
-          <button type="button" class="btn btn-outline-primary w-100" id="addCart${curso.clase}">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary" id="addCart${curso.clase}">Add to cart</button>
         </div>
       </div>`
       coursesInd.appendChild(newCoursesInd)
@@ -37,7 +37,7 @@ function printSp (array) {
           <p class="card-text">${curso.id}</p>
           <h2 class="card-title">${curso.duration}</h2>
           <h1 class="card-text display-1">€${curso.price}</h1>
-          <button type="button" class="btn btn-outline-primary w-100" id="addCart${curso.clase}">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary" id="addCart${curso.clase}">Add to cart</button>
         </div>
       </div>`
       coursesSp.appendChild(newCoursesSp)
@@ -62,7 +62,7 @@ function printCh (array) {
           <p class="card-text">${curso.id}</p>
           <h2 class="card-title">${curso.duration}</h2>
           <h1 class="card-text display-1">€${curso.price}</h1>
-          <button type="button" class="btn btn-outline-primary w-100" id="addCart${curso.clase}">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary" id="addCart${curso.clase}">Add to cart</button>
         </div>
       </div>`
       coursesCh.appendChild(newCoursesCh)
@@ -90,7 +90,7 @@ function coincidencias (array) {
     <p class="card-text">${curso.id}</p>
     <h2 class="card-title">${curso.duration}</h2>
     <h1 class="card-text display-1">€${curso.price}</h1>
-    <button type="button" class="btn btn-outline-primary w-100"id="addCart${curso.clase}">Add to cart</button>
+    <button type="button" class="btn btn-outline-primary" id="addCart${curso.clase}">Add to cart</button>
     </div>`
     coincidencia.appendChild(newCoincidencia)
     

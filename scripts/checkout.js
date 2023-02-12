@@ -25,9 +25,9 @@ function itemizedCart (array) {
     newCurso.innerHTML = 
     `<div>
       <h6 class="my-0">${curso.id}</h6>
-      <small class="text-muted">${curso.duration}</small>
+      <small>${curso.duration}</small>
     </div>
-    <span class="text-muted">€${curso.price}</span>`
+    <span><strong>€${curso.price}</strong></span>`
     checkoutCart.appendChild(newCurso)
   }
 }
